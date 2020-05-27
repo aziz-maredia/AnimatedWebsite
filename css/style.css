@@ -2,11 +2,11 @@
 *{margin:0;padding: 0; box-sizing: border-box;}
 
 header{
-	width: 100%;
+	width: auto;
 	height: 100vh;
 	background-image: linear-gradient(rgba(0,0,2,0.3),rgba(0,3,0,0.1)), url('../images/taj.jpg');
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size:100% 100%;
 }
 
 
@@ -39,7 +39,7 @@ nav{
 
 .menu a{
 
-	width: 33.33%;
+	width: auto;
 	text-decoration: none;
 	color: white;
 }
